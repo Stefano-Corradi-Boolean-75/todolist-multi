@@ -1,0 +1,15 @@
+// Bootstrap => npm install bootstrap
+@import 'node_modules/bootstrap/scss/bootstrap';
+
+.wrapper {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #001632;
+}
+
+.task-item {
+    cursor: pointer;
+}
